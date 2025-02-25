@@ -1,0 +1,84 @@
+# 模型文件
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.safetensors
+*.h5
+*.onnx
+*.tar
+*.zip
+
+# 数据集
+data/
+datasets/
+*.csv
+*.json
+*.jsonl
+*.txt
+*.tsv
+
+# 缓存和临时文件
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.swp
+*.swo
+*.lock
+*.tmp
+*.log
+
+# 环境相关
+.env
+.venv/
+venv/
+env/
+*.env
+*.env.local
+pip-selfcheck.json
+Pipfile
+Pipfile.lock
+pyvenv.cfg
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# 构建和发布
+build/
+dist/
+*.egg
+*.whl
+*.tar.gz
+
+# 日志
+logs/
+*.log
+*.log.*
+
+# 其他
+.DS_Store
+Thumbs.db
+*.db
+*.sqlite3
+*.sql
+*.bak
+*.orig
+*.rej
+unsloth_compiled_cache/
+*.Modelfile
+.webui_secret_key
+
+# 文件夹
+grpo_saved_lora/
+model/*
+outputs/
+QWen2.5-3B-Instruct-GRPO/
