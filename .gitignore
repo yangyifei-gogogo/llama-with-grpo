@@ -2,8 +2,9 @@
 *
 # 保留目录结构
 !*/
-# 保留所有层级的.gitkeep
+# 保留所有层级的.gitkeep和.ipynb
 !*/.gitkeep
+!*.ipynb
 
 # 新增常见忽略项
 # Python
