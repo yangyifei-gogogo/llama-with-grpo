@@ -40,3 +40,5 @@ venv/
 # 数据集缓存
 .cache/
 .dataset/
+
+!requirements.txt
