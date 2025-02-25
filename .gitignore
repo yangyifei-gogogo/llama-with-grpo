@@ -1,86 +1,41 @@
-# 模型文件
-*.bin
-*.pt
-*.pth
-*.ckpt
-*.gguf
-*.safetensors
-*.h5
-*.onnx
-*.tar
-*.zip
+# 忽略所有文件
+*
+# 保留目录结构
+!*/
+# 保留所有层级的.gitkeep
+!*/.gitkeep
 
-# 数据集
-data/
-datasets/
-*.csv
-*.json
-*.jsonl
-*.txt
-*.tsv
-
-# 缓存和临时文件
-.cache/
+# 新增常见忽略项
+# Python
+*.py[cod]
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+.pytest_cache/
 *.egg-info/
-*.swp
-*.swo
-*.lock
-*.tmp
+.ipynb_checkpoints/
+
+# 数据/模型文件
+*.bin
+*.pth
+*.pt
+*.h5
+*.csv
+*.tsv
+*.jsonl
+*.gguf
+
+# 日志文件
 *.log
+logs/
 
 # 环境相关
 .env
 .venv/
 venv/
-env/
-*.env
-*.env.local
-pip-selfcheck.json
-Pipfile
-Pipfile.lock
-pyvenv.cfg
 
-# IDE 和编辑器配置
+# 编辑器文件
 .vscode/
 .idea/
-*.code-workspace
-*.iml
-*.sublime-workspace
-*.sublime-project
 
-# 构建和发布
-build/
-dist/
-*.egg
-*.whl
-*.tar.gz
-
-# 日志
-logs/
-*.log
-*.log.*
-
-# 其他
-.DS_Store
-Thumbs.db
-*.db
-*.sqlite3
-*.sql
-*.bak
-*.orig
-*.rej
-unsloth_compiled_cache/
-*.Modelfile
-.webui_secret_key
-
-# 文件夹
-grpo_saved_lora/
-model/*
-outputs/
-QWen2.5-3B-Instruct-GRPO/
-model/*
-! model/*/.gitkeep
+# 数据集缓存
+.cache/
+.dataset/
