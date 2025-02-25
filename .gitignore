@@ -83,4 +83,4 @@ model/*
 outputs/
 QWen2.5-3B-Instruct-GRPO/
 model/*
-! */.gitkeep
+! model/*/.gitkeep
